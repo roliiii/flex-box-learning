@@ -1,0 +1,59 @@
+body {
+  background: #f7f7f7;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.box p {
+  margin: 0;
+}
+
+.box.one {
+  background: #67d167;
+}
+
+.box.two {
+  background: #ffff61;
+}
+
+.box.three {
+  background: #ffc14e;
+}
+
+.box.four {
+  background: #ff5353;
+}
+
+.box.five {
+  background: #868df5;
+}
+/*# sourceMappingURL=main.css.map */

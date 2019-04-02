@@ -1,0 +1,44 @@
+body{
+    background: rgb(247, 247, 247)
+}
+
+
+//---------------BOX--------------//
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: inset 1px 1px 3px 0px rgba(0,0,0,0.3);
+}
+
+.box p{
+    margin: 0;
+}
+
+.box.one{
+    background: rgb(103, 209, 103);
+}
+.box.two{
+    background: rgb(255, 255, 97);
+}
+.box.three{
+    background: rgb(255, 193, 78);
+}
+.box.four{
+    background: rgb(255, 83, 83);
+}
+.box.five{
+    background: rgb(134, 141, 245);
+}
